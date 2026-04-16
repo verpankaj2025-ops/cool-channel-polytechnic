@@ -4,6 +4,7 @@ import { useState, useEffect } from 'react';
 import Link from 'next/link';
 import { Phone, Menu, X, Wind } from 'lucide-react';
 import { motion, AnimatePresence } from 'motion/react';
+import Image from 'next/image';
 
 export default function Header() {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -31,10 +32,13 @@ export default function Header() {
       }`}
     >
       <div className="container mx-auto px-4 md:px-6 max-w-7xl flex items-center justify-between">
-        <Link href="/" className="flex items-center gap-2 group">
-          <div className="bg-blue-600 text-white p-2 rounded-lg group-hover:bg-blue-700 transition-colors">
-            <Wind className="w-6 h-6" />
-          </div>
+        <Link href="/" className="flex items-center gap-3 group">
+  <Image  
+     src="/logo.png"  
+     alt="Cool Channel Logo"  
+     width={50}  
+     height={50}  
+/>
           <div>
             <h1 className="text-xl font-bold text-gray-900 leading-none tracking-tight">Cool Channel</h1>
             <p className="text-xs text-blue-600 font-medium mt-0.5">Sales & Service</p>
