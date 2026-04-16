@@ -286,7 +286,7 @@ export default function Home() {
                   </div>
                   <div>
                     <h4 className="text-xl font-bold mb-2">Office Timing</h4>
-                    <p className="text-gray-400 text-lg">11:00 AM to 8:00 PM</p>
+                    <p className="text-gray-400 text-lg">09:00 AM to 09:00 PM</p>
                     <p className="text-gray-500 text-sm mt-1">Open 7 days a week</p>
                   </div>
                 </div>
