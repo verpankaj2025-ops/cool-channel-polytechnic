@@ -315,7 +315,7 @@ export default function Home() {
                   Major Service Areas
                 </h3>
                 <div className="flex flex-wrap gap-3">
-                  {['Indira Nagar', 'Gomti Nagar', 'Munsipula', 'Chinhat', 'Aliganj', 'Kapoorthala', 'Hazratganj'].map((area) => (
+                  {['Indira Nagar', 'Gomti Nagar', 'Munsipulia', 'Chinhat', 'Aliganj', 'Kapoorthala', 'Hazratganj'].map((area) => (
                     <span key={area} className="bg-gray-700 text-gray-300 px-4 py-2 rounded-full text-sm font-medium">
                       {area}
                     </span>
